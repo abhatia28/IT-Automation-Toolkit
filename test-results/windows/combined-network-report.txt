@@ -1,0 +1,94 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260622133833
+Username: DESKTOP-FRSP4MR\HP
+RunAs User: DESKTOP-FRSP4MR\HP
+Configuration Name: 
+Machine: DESKTOP-FRSP4MR (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\HP\AppData\Local\Programs\Microsoft VS Code\fcf604774b\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+Process ID: 10872
+PSVersion: 5.1.26100.8655
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8655
+BuildVersion: 10.0.26100.8655
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\test-results\windows\combined-network-report.txt
+Running network diagnostics...
+
+Source        Destination     IPV4Address      IPV6Address                              Bytes    Time(ms)
+------        -----------     -----------      -----------                              -----    --------
+DESKTOP-FR... google.com      142.250.194.238  2404:6800:4000:101f::8b                  32       63
+DESKTOP-FR... google.com      142.250.194.238  2404:6800:4000:101f::8b                  32       91
+
+Name       : google.com
+QueryType  : AAAA
+TTL        : 233
+Section    : Answer
+IP6Address : 2404:6800:4000:101f::8b
+
+
+Name       : google.com
+QueryType  : AAAA
+TTL        : 233
+Section    : Answer
+IP6Address : 2404:6800:4000:101f::71
+
+
+Name       : google.com
+QueryType  : AAAA
+TTL        : 233
+Section    : Answer
+IP6Address : 2404:6800:4000:101f::66
+
+
+Name       : google.com
+QueryType  : AAAA
+TTL        : 233
+Section    : Answer
+IP6Address : 2404:6800:4000:101f::65
+
+
+Name       : google.com
+QueryType  : A
+TTL        : 20
+Section    : Answer
+IP4Address : 142.250.194.238
+
+
+ComputerName             : google.com
+RemoteAddress            : 2404:6800:4000:101f::8b
+ResolvedAddresses        : {2404:6800:4000:101f::8b, 2404:6800:4000:101f::65, 2404:6800:4000:101f::66, 2404:6800:4000:101f::71...}
+PingSucceeded            : False
+PingReplyDetails         :
+TcpClientSocket          :
+TcpTestSucceeded         : True
+RemotePort               : 443
+TraceRoute               :
+Detailed                 : False
+InterfaceAlias           : Wi-Fi
+InterfaceIndex           : 13
+InterfaceDescription     : Realtek RTL8822CE 802.11ac PCIe Adapter
+NetAdapter               : MSFT_NetAdapter (CreationClassName = "MSFT_NetAdapter", DeviceID = "{974567DC-4740-45D3-8B4D-6594E458FF60}",
+                           SystemCreationClassName = "CIM_NetworkPort", SystemName = "DESKTOP-FRSP4MR")
+NetRoute                 : MSFT_NetRoute (InstanceID = "DD9:55;?55poB:DDkkBBD;pppDpo?@D?mkn55;")
+SourceAddress            : 2405:201:6838:b098:c59b:bfe0:9cc6:105
+NameResolutionSucceeded  : True
+BasicNameResolution      : {Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_AAAA,
+                           Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_AAAA...}
+LLMNRNetbiosRecords      : {}
+DNSOnlyRecords           : {Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_AAAA,
+                           Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_AAAA...}
+AllNameResolutionResults : {Microsoft.DnsClient.Commands.DnsRecord_A, Microsoft.DnsClient.Commands.DnsRecord_AAAA,
+                           Microsoft.DnsClient.Commands.DnsRecord_AAAA, Microsoft.DnsClient.Commands.DnsRecord_AAAA...}
+IsAdmin                  : False
+NetworkIsolationContext  : Internet
+MatchingIPsecRules       :
+
+**********************
+Windows PowerShell transcript end
+End time: 20260622133835
+**********************
